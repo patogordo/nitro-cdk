@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.699.0",
+    "@logtail/edge": "^0.5.2",
+    "@logtail/pino": "^0.5.2",
+    "consola": "^3.2.3",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
